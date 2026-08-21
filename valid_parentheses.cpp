@@ -25,8 +25,8 @@ bool isValid(string s) {
             st.pop();
         }
     }
-
-    return true;
+    // return statement fixed
+    return st.empty();  // true only when all brackets are matched 
 }
 
 int main() {
